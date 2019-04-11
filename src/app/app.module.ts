@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 
 // modules
 import { Module__Home } from './modules/home/home.module';
+import { Module__BrandOne } from './modules/brand-one/brand-one.module';
+import { Module__BrandTwo } from './modules/brand-two/brand-two.module';
 import { Module__Error } from './modules/error/error.module';
 
 // ng module
@@ -22,6 +24,8 @@ import { Module__Error } from './modules/error/error.module';
 
     // modules
     Module__Home,
+    Module__BrandOne,
+    Module__BrandTwo,
     Module__Error
   ],
   providers: [],
